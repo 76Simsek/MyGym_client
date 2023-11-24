@@ -1,0 +1,86 @@
+/* Stil für die Card */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  background-color: var(--color-bg);
+  width: 100%;
+
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: var(--font-family);
+  margin-bottom: 0.5rem;
+}
+
+/* Stil für den Header der Card */
+.card-header {
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Stil für den Inhalt der Card */
+.card-content {
+  padding: 10px;
+  font-family: var(--font-family);
+}
+
+/* Stil für einen Hover-Effekt (optional) */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: absolute;
+  width: 80%;
+  max-width: 500px; /* Maximalbreite für das Popup */
+  border-radius: 10px;
+  font-family: var(--font-family);
+}
+
+.popup_p {
+  font-family: var(--font-family);
+}
+
+.sets {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  margin: 2rem 0rem;
+  background-color: white;
+  font-size: 16pt;
+  border-color: var(--color-bg);
+}

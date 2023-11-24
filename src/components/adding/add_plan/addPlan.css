@@ -1,0 +1,74 @@
+input[name='gym'],
+[name='kommentar'],
+[name='übung'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--color-bg);
+  font-size: 14pt;
+}
+
+input[type='date'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--color-bg);
+  font-size: 14pt;
+}
+
+.dropdown select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--color-bg);
+  font-size: 14pt;
+}
+
+.wdh {
+  padding: 12px 10px;
+  margin: 8px 0;
+  border-bottom: 2px solid var(--color-bg);
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  font-size: 16pt;
+}
+
+.wdh input[type='number'] {
+  width: 35px;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 1px;
+  font-size: 13pt;
+}
+.formular {
+  padding: 0 2rem;
+  font-size: 15pt;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+  align-content: space-between;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  margin: 2rem 0rem;
+  background-color: white;
+  font-size: 16pt;
+  border-color: var(--color-bg);
+}
+
+.name {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+}

@@ -1,0 +1,46 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  background-color: var(--color-bg);
+  width: 100%;
+
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: var(--font-family);
+  margin-bottom: 0.5rem;
+}
+
+/* Stil für den Header der Card */
+.card-header {
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Stil für den Inhalt der Card */
+.card-content {
+  padding: 10px;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  margin: 2rem 0rem;
+  background-color: white;
+  font-size: 16pt;
+  border-color: var(--color-bg);
+}
+
+
+/* Stil für einen Hover-Effekt (optional) */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}

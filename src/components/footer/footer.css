@@ -1,0 +1,42 @@
+.MyGym__footer {
+  background-color: var(--color-bg);
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+.MyGym__footer button {
+  width: 90px;
+  height: 100%;
+  align-items: center;
+  margin: 0.5rem 0rem 0.3rem 0rem;
+  background-color: var(--color-bg);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.MyGym__footer img {
+  width: 25px;
+  /* margin: 0rem 3rem; */
+}
+
+.MyGym__footer p {
+  color: #fff;
+  font-family: var(--font-family);
+  margin: 0.4rem 0rem 0.5rem 0rem;
+  font-weight: 500;
+  font-size: 15px;
+}

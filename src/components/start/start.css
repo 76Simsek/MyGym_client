@@ -1,0 +1,33 @@
+.MyGym_start {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.MyGym_start_name {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+}
+
+.MyGym_start_button {
+  display: flex;
+  align-self: center;
+}
+
+.MyGym_start_button button {
+  color: #fff;
+  font-weight: 550;
+  font-size: 14px;
+  width: 280px;
+  height: 40px;
+  background-color: var(--color-bg);
+  border: none;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* styles for screens up to 600px wide */
+}

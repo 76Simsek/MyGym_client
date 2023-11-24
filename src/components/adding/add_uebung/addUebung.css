@@ -1,0 +1,58 @@
+input[name='übung'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--color-bg);
+  font-size: 14pt;
+}
+
+.wdh {
+  width: 100%;
+  padding: 12px 10px;
+
+  border-bottom: 2px solid var(--color-bg);
+
+  margin-top: 1rem;
+  flex-direction: row;
+  font-size: 16pt;
+}
+
+.wdh input[type='number'] {
+  border-radius: 10px;
+  margin: 0 7px;
+  width: 20%;
+  border: none;
+  justify-content: center;
+  box-sizing: border-box;
+  box-shadow: 1px;
+  font-size: 13pt;
+  background-color: lightgray;
+}
+
+.formular {
+  padding: 0 2rem;
+  font-size: 18pt;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+  align-content: space-between;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  margin: 2rem 0rem;
+  background-color: white;
+  font-size: 16pt;
+  border-color: var(--color-bg);
+}
+
+.name {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+}
